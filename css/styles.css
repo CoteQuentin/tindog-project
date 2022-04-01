@@ -1,0 +1,202 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+#testimonials, #press {
+  background-color: #ef8172;
+}
+
+/* Headings */
+.big-h {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-h {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Top Section */
+
+#title {
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 5%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-weight: lighter;
+  font-size: 1.25rem;
+}
+
+/* Title */
+
+.download-btn {
+  margin: 3rem 2rem 3rem 0;
+}
+
+/* title iphone image */
+#title img {
+  width: 60%;
+  position: absolute;
+  right: 30%;
+  transform: rotate(25deg);
+}
+
+/* Features */
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+}
+
+/* feature icons */
+#features i {
+  color: #ef8172;
+}
+
+/* feature icons - hover state */
+#features i:hover {
+  color: #ff4c68;
+}
+
+/* feature titles */
+#features h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* feature descriptions */
+#features p {
+  color: #8f8f8f;
+}
+
+/* Testimonials */
+
+
+
+/* testimonial text */
+#testimonials h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* testimonial images */
+#testimonials img {
+  width: 15%;
+  border-radius: 100%;
+  display: block;
+  margin: 2rem auto;
+}
+
+/* testimonial names/locations */
+#testimonials em {
+  font-weight: 100;
+  font-size: 1.25rem;
+}
+
+/* carousel classes for padding in testimonials */
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.visually-hidden {
+  opacity: 0;
+}
+
+/* Press */
+
+#press {
+  padding-bottom: 3%;
+}
+
+#press img {
+  width: 12%;
+  margin: 20px 30px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 7% 10%
+}
+
+.price-col {
+  padding: 2.5rem 0;
+}
+
+/* plan prices */
+.card-deck h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Call To Action */
+#cta {
+  padding: 7% 20% 5%;
+}
+
+/* Footer */
+
+#footer {
+  padding: 3% 10% 1%;
+  line-height: 3;
+}
+
+/* footer trademark/copyright */
+#footer p {
+  color: gray;
+}
+
+/* footer social links */
+#footer a, #footer a:hover, #footer a:visited {
+  color: black;
+  padding: 0 1%;
+}
+
+/* Media Queries */
+
+@media (max-width: 991px) {
+  #title img {
+    position: static;
+    transform: rotate(0);
+    margin: auto;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
